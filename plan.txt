@@ -1,0 +1,56 @@
+Math obyekti:
+Math.round-bu berilgan qoldiq sonni eng yaqiniga yaxlitlab butun son qaytaradi. console.log(Math.round(2.5))
+Math.ceil-faqatgina butun son qaytaradi agar qoldiq qiymat kichik bulsa ham . Agar son manfiy buladigan bo’lsa usha sonni o’zini chiqarib beradi. 
+Math.floor-faqatgina eng kichik butun son qaytaradi. 
+Math.trunc-nuqtadan keyingi sonlarni olib tashlab butun son qaytaradi. 
+Math.sign- bu metodda agar qiymat musbat bo’lsa 1 qaytaradi, manfiy bo’lsa -1 qaytaradi, 0 bo’lsa 0 qaytaradi, Agar NaN bo’lsa ham NaN qaytaradi, agar qiymat true yoki folse bo’lsa 1yoki 0 qaytaradi. 
+Math.pow-metodi 1-argumentni 2-argumentga darajasini hisoblash uchun ishlatiladi. 
+Math.sqrt- berilgan sonni kvadrat ildiz raqamini qaytaradi. 
+Math.abs-faqatgina musbat son qaytaradi. Manfiyni musbatga almashtiradi. 
+Math.min-berilgan sonlar ichida eng kichigini qaytaradi.
+Math.max-berilgan sonlar ichidan eng kattasini chiqaradi.
+Math.random-ixtiyoriy uzi raqamlarni aniqlab beradi. 
+Array-bir vaqtning o’zida bir nechta qiymatlarni o’zida saqlashi mumkin bo’lgan obyekt. Array yaratish 2xil usulda amalga oshiriladi. Ular: literal va new kalit so’zi yordamida.
+Array literal-array yaratishning eng oson usuli array literal hisoblanib, [] foydalanib yaratiladi. 
+New kalit so’zi- Java Script dasturlash tilidan arraylarni new kalit so’zidan foydalanib ham yaratish imkoniyati mavjud. Array o’z ichida turli xil qiymatlarni saqlashi mumkin.
+Array elementini olish- array elementlarini uning indekslaridan foydalanib olish mumkin. 
+! Array elementining raqamlanishi 0 dan boshlanadi. 
+Arrayga element qo’shish- arrayga element qo’shish uchun push()  yoki unshift() array metodlaridan foydalanish mumkin. 
+push()- Metodi yordamida array oxirida element qo’shish mumkin.
+unshift()- Metod yordamida array boshiga element qushish mumkin. 
+Array elementini o’zgartirish- array indekslaridan foydalanib, uning element qiymatini o’zgartirish imkoniyati mavjud.
+Array elementni o’chirish:
+pop()-metodidan foydalanib array ichidagi oxirgi elementni o’chirish imkoniyati mavjud. Method o’chirilgan elementni qaytaradi. 
+shift()- metodidan foydalanib array ichidagi 1-elementni o’chirish imkoniyati mavjud. Method uchirilgan elementni qaytaradi.
+Array uzunligini aniqlash- uni length xossasi yordamida qilish mumkin.
+Java Script dasturlash tilida array bilan ishlashni osonlashtiradigan maxsus methodlar mavjud. 
+concat()-2 yoki undan ortiq arraylarni birlashtirib,natijani qaytaradi. 
+indexOf()- arrayni ichidan elementni izlab, uning joylashgan o’rnini qaytaradi. 
+find()-1-bo’lib shartni bajargan array elementini qaytaradi. Array ichidagi elementni qidirishga foydalaniladi. 
+findIndex- 1-bo’lib shartni bajargan array elementini joylashgan o’rnini qaytaradi. Array ichidagi elementni qidirishda foydalaniladi. 
+forEach- har bir element uchun berilgan funksiyani qaytaradi. 
+Map- har bir massiv elementi uchun berilgan funksiyani chaqirib, yangi array yaratadi. 
+filter-berilgan shartni bajargan elementlarni saralab olib, yangi massiv yaratadi. 
+includes- massivda ko’rsatilgan element mavjudligini tekshiradi. 
+push-massiv oxirida yangi element qo’shadi va massivning yangi uzunligini qaytaradi. 
+unshift-  massiv boshida yangi element qushadi va massivning yangi uzumligini qaytaradi. 
+Pop- massivninig oxirgi elementini olib tashlaydi. 
+Shift- massivning 1-elementini olib tashlaydi va olib tashlangan elemantni qaytaradi. 
+Sort- elementni alfavit tartibida, satrlar sifatida va o’sish tartibida tartiblaydi. 
+Slice-massivning ko’rsatilgan qismini tanlab qaytaradi. 
+Splice- massivning mavjud elementini olib tashlaydi yoki almashtiradi yoki yangi element qo’shadi. 
+Java Script Object- bir nechta ma’lumotlar to’plamini saqlashga imkon beruvchi ma’lumot turi. 
+const dasturchi= {
+    ism: "ezoza", yosh:20
+}
+console.log(dasturchi);
+Obyektlar figuralik qavslar ({}) yordamida yaratilib, har bir xossasi property kalit:qiymat ko’rinishiga ega bo’ladi. 
+const dasturchi= {
+    ism: "ezoza", yosh:20
+}
+console.log( typeof dasturchi);
+ JavaScript method- funksiya qiymatiga ega bo’lgan obyekt xususiyati. Method ichida obyektning xususiyatlarini ishlatish uchun this kalit so’zidan foydalaniladi. 
+Object.keys()- berilgan obyektning kalitlar ro’yhatini qaytaruvchi maxsus funksiya. 
+Object.values()- berilgan obyektning qiymatlar ro’yhatini qaytaruvchi maxsus funksiya. 
+Object.entries()- berilgan hamma ma’lumotlarni alohida alohida array shaklida hosil qilib beradi. 
+Conditional statement- Java Script dasturlash tilida berilgan shartga ko’ra ma’lum bir oqimni ishga tushish boshqacha qilib aytganda berilgan shartga ko’ra ma’lum bir harakatni bajarishga aytiladi. 
